@@ -55,15 +55,15 @@
             }
         }
         /* ON LAUNCHING DELETE */
-        h2 {
+/*         h2 {
             text-align: center;
             color: #fff;
-        }
+        } */
     </style>
 </head>
 <body>
-    <h2>Launching On 19.08.2023</h2>
-<!--     <header>
+<!--     <h2>Launching On 19.08.2023</h2> -->
+    <header>
         <div class="left-header">
             <img class="logo" src="{% static '/img/logoMain.png' %}" alt="logomain">
             <h2 class="logo-text">Rubysource</h2>
@@ -145,8 +145,8 @@
             <nav class="nav">
                 <ul class="nav_list">
                     <li class="nav-list-item"><a class="footer-link nav-list-item-link" href="{% url 'app:index' %}">Home</a></li>
-                    <!-- <li class="nav-list-item"><a class="footer-link nav-list-item-link" href="#">Courses</a></li> -->
-<!--                     <a class="auth-button" href="{% url 'users:login' %}">Login</a> -->
+                    <li class="nav-list-item"><a class="footer-link nav-list-item-link" href="#">Courses</a></li>
+                    <a class="auth-button" href="{% url 'users:login' %}">Login</a>
                 </ul>
             </nav>
         </div>
